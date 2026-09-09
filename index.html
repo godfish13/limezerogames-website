@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,19 +9,87 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <main class="hero">
-        <h1>LimeZero Studio LLC</h1>
+    <header class="site-header">
+        LimeZero Studio LLC
+    </header>
 
-        <p class="subtitle">
-            Independent Game Development Studio
-        </p>
+    <main class="main-layout">
 
-        <p class="game">
-            Currently developing
-            <strong>Ember Veil – Tale in Cinders</strong>
-        </p>
+        <!-- Left Side -->
+        <section class="left-panel">
+
+            <!-- Gameplay Video -->
+            <div class="video-container">
+                <video
+                    class="gameplay-video"
+                    controls
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                >
+                    <source src="videos/gameplay.mp4" type="video/mp4">
+
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <!-- Game Title -->
+            <img
+                class="title-logo"
+                src="images/Title.png"
+                alt="Ember Veil - Tale in Cinders"
+            >
+
+        </section>
+
+
+        <!-- Right Side -->
+        <section class="right-panel">
+
+            <!-- Character -->
+            <img
+                class="character"
+                src="images/Last_Emberkin.png"
+                alt="Ember Veil character"
+            >
+
+            <!-- Links -->
+            <div class="links">
+
+                <a
+                    class="icon-link"
+                    href="https://x.com/LimeZero13"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="LimeZero Studio on X"
+                >
+                    <img
+                        class="x-icon"
+                        src="images/logo-white.png"
+                        alt=""
+                    >
+                </a>
+
+                <div class="icon-link steam-coming-soon">
+                    <img
+                        class="steam-icon"
+                        src="images/steam-logo-white.png"
+                        alt="Steam"
+                    >
+
+                    <span class="tooltip">
+                        Steam page coming soon!
+                    </span>
+                </div>
+
+            </div>
+
+        </section>
+
     </main>
 
     <footer>
@@ -28,4 +97,5 @@
     </footer>
 
 </body>
+
 </html>
