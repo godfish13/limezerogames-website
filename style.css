@@ -170,6 +170,9 @@ body {
     gap: 45px;
 
     margin-top: 5px;
+
+    position: relative;
+    z-index: 3;
 }
 
 .icon-link {
